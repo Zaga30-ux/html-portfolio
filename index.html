@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
+</head>
+<body>
+    <!-- header section -->
+    <header class="bg-white shawdow fixed w-full top-0">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between item-center">
+            <a href="" class="text-2xl font-bold text-indigo-700">Zaga30</a>
+            <nav class="space-x-8">
+                <a
+                 href="#about" 
+                 class="text-gray-700 hover:text-indigo-700 font-medium">about</a>
+                <a 
+                href="#services"
+                 class="text-gray-700 hover:text-indigo-700 font-medium">service</a>
+                <a
+                 href="#portfolio"
+                  class="text-gray-700 hover:text-indigo-700 font-medium">portfolio</a>
+                <a
+                 href="#contact" 
+                 class="text-gray-700 hover:text-indigo-700 font-medium">contact</a>
+            </nav>
+        </div>
+    </header>
+    <!-- hero section -->
+     <section id="home" class="pt-20 pb-20 bg-gradient-to-br from-indigo-100 to white">
+        <div  class="max-w-5xl mx-auto text-center px-6">
+            <h1 class="text-4xl font-bold ">
+                Hi, I'm <span class="text-indigo-700">Zaga30</span>
+            </h1>
+            <p class="p-3">
+                frontend developer and UI/UX designer
+            </p>
+            <p class="p-4">
+                i build beautiful, responsive websites using modern tools like HTML, CSS, TAILWIND CSS and Javascript
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4 pt-4">
+
+                <a href="#portfolio" class="bg-indigo-600 text-white px-6 py-3 rounded-lg shadow hover:bg-indigo-700
+                transition front-medium">view my work</a>
+
+                <a href="#contact" class="border border-indigo-700 text-indigo-700 px-6 py-3 rounded-lg shadow hover:bg-gray-100
+                transition front-medium">contact me</a>
+
+            </div>
+
+        </div>
+
+     </section>
+     <!-- About section -->
+      <section id="about" class="py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">About me</h2>
+            <p>
+                I am a passionate frontend Developer with a keen eye for design and user experience. i love creating
+                beautiful, responsive websites that not only look great but also provide an excellent user experience.
+                with a strong foundation in HTML, CSS, and Javascript, i am always eager to learn new technologies and
+                improve my skills.
+            </p>
+        </div>
+      </section>
+      <!-- service section -->
+       <section id="services" class="py-20 bg-gray-100 px-6">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">what I Do</h2>
+            <div class="grid gird-cols-1 md:grid-cols-3 gap-8">
+
+            
+            <!-- service 1 -->
+             <div class="bg-white p-8 rounded-lg shadow hover:shadow-xl transition text-center">
+                <i class="fas fa-code text-4xl text-indigo-600 mb-4"></i>
+                <h3 class="text-xl font-semibold mb-3">web development</h3>
+                <p class="text-gray-600">
+                    building fast, responsive websites using modern technologies like HTML, CSS and Javascript</p>
+             </div>
+             <!-- service 2 -->
+              <div class="bg-white p-8 rounded-lg shadow hover:shadow-xl transition text-center">
+                <i class="fas fa-brush text-4xl text-indigo-600 mb-4"></i>
+                <h3 class="text-xl font-semibold mb-3">UI/UX design</h3>
+                <p class="text-gray-600">
+                    Designing Intuitive and user-friendly interfaces that enhance user experience for digital products</p>
+             </div>
+             <!-- service 3 -->
+              <div class="bg-white p-8 rounded-lg shadow hover:shadow-xl transition text-center">
+                <i class="fas fa-mobile-alt text-4xl text-indigo-600 mb-4"></i>
+                <h3 class="text-xl font-semibold mb-3">Responsive Design</h3>
+                <p class="text-gray-600">
+                    Creating mobile-first experiences that work on any device</p>
+             </div>
+             </div>
+        </div>
+       </section>
+       <!-- portfolio section -->
+       <section id="portfolio" class="py-20 px-6">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+                My Projects
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- project 1 -->
+                 <div class="bg-white rounded-lg overflow-hidden shadow hover:shadow-xl transition">
+                    <img src="image2.jpg" 
+                    alt="project 1" 
+                    class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                 <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">E-commerce</h3>
+                        <p>A Fully responsive online store built with modern CSS and JS</p>
+                        <a href="#" class="text-indigo-600 hover:underline text-sm font-medium">view project</a>
+                 </div>
+                 </div>
+                 <!-- project 2 -->
+                 <div class="bg-white rounded-lg overflow-hidden shadow hover:shadow-xl transition">
+                    <img src="image3.jpg" 
+                    alt="project 1" 
+                    class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                 <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">portfolio website</h3>
+                        <p>Minisite design focused on typography and user experience</p>
+                        <a href="#" class="text-indigo-600 hover:underline text-sm font-medium">view project</a>
+                 </div>
+                 </div>
+                 <!-- project 3 -->
+                 <div class="bg-white rounded-lg overflow-hidden shadow hover:shadow-xl transition">
+                    <img src="image5.jpg" 
+                    alt="project 1" 
+                    class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                 <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Task manager app</h3>
+                        <p>A Lightweight to do app with local storage and clean UL</p>
+                        <a href="#" class="text-indigo-600 hover:underline text-sm font-medium">view project</a>
+                 </div>
+                 </div>
+            </div>
+        </div>
+       </section>
+       <!-- contact section -->
+        <section id="contact" class="py-20 bg-gray-100 px-6">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">Get in Touch</h2>
+                <p class="text-gray-600 mb-8">
+                    Have a project in mind? lets work together to bring your idea to life.
+                </p>
+                <form class="space-y-4 text-left">
+                    <input type="text"
+                     placeholder="Your Name" 
+                    class="w-full p-3 border border-gray-200 rounded focus:ring-2 focus:ring-indigo-200">
+                    
+                    <input type="E-mail"
+                     placeholder="Your Email" 
+                    class="w-full p-3 border border-gray-200 rounded focus:ring-2 focus:ring-indigo-200">
+                    <textarea name="message" 
+                      rows="5"
+                       placeholder="Your Message"
+                       class="w-full p-3 border border-gray-200 rounded focus:ring-2 focus:ring-indigo-200"></textarea>
+                       ></textarea>
+                       <button class="w-full p-3 bg-indigo-600 text-white rounded hover:bg-indigo-700">Send Message</button>
+                </form>
+            </div>
+        </section>
+        <!-- footer section -->
+         <footer class="bg-gray-900 text-white py-10 px-6">
+            <div class="max-w-5xl mx-auto text-center">
+                <p>&copy; 2025 Zaga30. All rights reserved. </p>
+                <div class="mt-4 flex justify-center space-x-6">
+                    <a href="#" class="hover:text-indigo-400"><i class="fab fa-linkedin fa-lg"></i></a>
+                    <a href="#" class="hover:text-indigo-400"><i class="fab fa-github fa-lg"></i></a>
+                    <a href="#" class="hover:text-indigo-400"><i class="fab fa-x fa-lg"></i></a>
+                    <a href="#" class="hover:text-indigo-400"><i class="fab fa-instagram fa-lg"></i></a>
+
+                </div>
+
+            </div>
+
+         </footer>
+
+</body>
+</html>
